@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #F5F5F5;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #C0C0C0;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #C0C0C0;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+img {
+  float: right;
+}
+
+</style>
+<title>Sapir Maimon</title>
+</head>
+
+<body>
+<div class="header">
+ <h1>Welcome to My Life</h1>
+ <p>Sapir Maimon</p>
+</div>
+<div class="topnav">
+ <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+  
+  <div class="column content">
+<h1>About Me</h1>
+<p><img src="pp.jpg" style="width:170px;height:170px;margin-left:15px;">Hi, my name is Sapir Maimon. I am 28 years old and live in Tel Aviv with my best friend and her puppy.
+<br><br>I grew up in Givat Shmuel with my both parents, Ziva and Daniel, and my two big brothers, Liran and Roey.
+<br><br> My family and my friends are the most important thing to me and they are a big part in my life.
+</p>
+
+<h2>Education</h2>
+<p> &#10019 Quality Assurance Course, <a href="https://automation.co.il/"> Automation College </a>(2021-today)  </p>
+<p> &#10019 B.A in the Middle Eastern studies and Arabic, <a href="https://www.ariel.ac.il/wp/middle-east/">Ariel University</a>(2016-2019)</p>
+<p> &#10019 Spoken Arabic courses, Ariel University (2017-2018)</p>
+
+<h2>Work Experience</h2>
+<p> &#10019 Customer Service Representative at Wealthstone Holdings LTD (2019-today) </p>
+<p> &#10019 Arabic Teaching Assistant, at the Middle Eastern class, Ariel University (2018-2019)</p>
+<p> &#10019 Waitress, "River" resturant (2016-2019)</p>
+
+
+<h2>Hobbies and Interests</h2>
+<p> &#10019 Learning new languages - I speak Hebrew, English, Spanish, and a little bit Arabic. The next language I would like to learn is Italic. </p>
+<p> &#10019 Dog Lover - I've head a one dog in my childhood and would like to adopt one of my own in the future. </p>
+<p> &#10019 Reading - one of my favorite Israeli autors is <a href="https://www.ilanheitner.com/">Ilan Heitner.</a></p> 
+<p> &#10019 Music - favorite genres: Reggaeton, Israeli music, Rock, Mainstream, Indie.</p>
+
+</div>
+
+<div class="footer">
+  
+</div>
+
+
+</body>
+</html>
